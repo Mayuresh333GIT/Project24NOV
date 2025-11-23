@@ -1,2 +1,3 @@
-# Project24NOV
-This is a project for Uni academic purposes on the topic of anything which is useful in real life which needs to be submitted on 24th Nov. 2025
+# Carbon Footprint Calculator
+This is an project that I made using an module in python called streamlit.
+It's main functionality is to tell the user their total CO2 emissions per year based on their daily activities so that they become more surrounding conscious than they ever were.  
