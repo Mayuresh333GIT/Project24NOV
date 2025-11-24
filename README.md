@@ -1,8 +1,12 @@
 # Carbon Footprint Calculator
 This is an project that I made using an module in python called streamlit.
 It's main functionality is to tell the user their total CO2 emissions per year based on their daily activities so that they become more surrounding conscious than they ever were.
+Features: User inputs their daily activities such as Transportation, Electricity, etc. and gets the total CO2 emission and suggetions as the output.
+Technologies/Tools Used: The tools used in this project is an module in Python programming language called "Streamlit".
+Steps to install & run the project: It is advised that one should use VS Code for viewing this project and should download the streamlit module or package by putting exactly this in the terminal: python -m pip install streamlit
+Instructions For Testing: The user should follow the instructions above and put the Source Code below in VS Code and click the run icon. 
 
-
+SOURCE CODE:
 import streamlit as st
 EMISSIONFACTORS={"India":{
 "Transportation": 0.20,
@@ -101,5 +105,4 @@ if st.button("Calculate CO2 Emissions"):
         st.subheader("Total Carbon Footprint")
         st.info(f"Your total Carbon Footprint is: {total_emissions} tonnes CO2 per year")
         st.subheader("Suggestions To Minimize CO2 Emmisions")
-        st.warning("To reduce overall CO₂ emissions, a combination of lifestyle changes, improved energy efficiency, and sustainable policy measures is essential. Individuals can lower their carbon footprint by prioritizing public transportation, car-pooling, electric mobility, and active travel options such as walking or cycling. Switching to renewable electricity sources, improving home insulation, and using energy-efficient appliances significantly reduces emissions from electricity and housing. Choosing more plant-based meals, minimizing food waste, and recycling properly help decrease emissions from consumption and waste. At a broader level, promoting clean energy transitions, sustainable urban planning, and responsible consumer habits can collectively lead to major emission reductions. Even small changes, when adopted widely, create a substantial positive impact on the environment.")
-#python -m streamlit run "C:\Users\Mayuresh\Desktop\vs code/app.py" 
+        st.warning("Reducing CO₂ emissions calls for the combined efforts from the people and governments; you should meaningfully lower your footprint by using cleaner transport, saving on electricity, choosing meals with more plants, and reducing waste. Although there is no strict 'ideal' level of CO₂ emissions rule set for individuals, the UN's Intergovernmental Panel on Climate Change (IPCC) has estimated that, for the whole world, average emissions need to be reduced to about 2 tonnes of CO₂ per person per year by 2030-2040 to keep global warming below 1.5°C. This value is not a rule but a scientific guideline derived from the carbon budget of the planet. The current emissions now vary widely from country to country. India emits about 2 tonnes per person per year, the U.K. about 5-6 tonnes, and the U.S. about 15-16 tonnes. These figures are the proof of how lifestyle, energy sources, and infrastructure can influence a country's footprint and how far many regions still are from the sustainable 2-tonne benchmark.")
