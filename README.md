@@ -4,8 +4,9 @@ It's main functionality is to tell the user their total CO2 emissions per year b
 **FEATURES**: User inputs their daily activities such as Transportation, Electricity, etc. and gets the total CO2 emission and suggetions as the output.
 **TECHNOLOGIES/TOOLS USED**: The tools used in this project is an module in Python programming language called "Streamlit".
 **STEPS TO INSTALL & RUN THE PROJECT**: It is advised that one should use VS Code for viewing this project and should download the streamlit module or package by putting exactly this in the terminal: python -m pip install streamlit
-**INSTRUCTIONS FOR TESTING**: The user should follow the instructions above and put the Source Code below in VS Code and click the run icon. 
+**INSTRUCTIONS FOR TESTING**: The user should follow the instructions above and put the Source Code below in VS Code and click the run icon.
 
+Although the Source Code File is uploaded in this repository itself, it is also put here for further convinience.
 **SOURCE CODE**:
 import streamlit as st
 EMISSIONFACTORS={"India":{
